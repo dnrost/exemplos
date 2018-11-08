@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="842e7b5d-65e2-410a-80ee-5f689c05a209" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/exemplo3/index6.html" beforeDir="false" afterPath="$PROJECT_DIR$/exemplo3/index6.html" afterDir="false" />
-    </list>
+    <list default="true" id="842e7b5d-65e2-410a-80ee-5f689c05a209" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -241,7 +239,7 @@
       <option name="presentableId" value="Default" />
       <updated>1541590373697</updated>
       <workItem from="1541590375087" duration="5588000" />
-      <workItem from="1541673528488" duration="4881000" />
+      <workItem from="1541673528488" duration="5148000" />
     </task>
     <task id="LOCAL-00001" summary="commit aula">
       <created>1541599121270</created>
@@ -254,7 +252,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10469000" />
+    <option name="totallyTimeSpent" value="10736000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
