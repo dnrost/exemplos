@@ -1,0 +1,7 @@
+<form id="cadastro">
+
+input type="range", color, password, search, select, textarea, pattern
+form novalidate
+
+atributo formnovalidate no botão de submit para que o formulário não seja validado
+autofocus -> cai direto nesse campo ao entrar na página
