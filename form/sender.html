@@ -12,12 +12,23 @@
         </legend>
 
         <input type="text" pattern="\d{5}-?\d{3}" placeholder="99999-999">
-        <input type="email" value="" placeholder="sandra@procergs.rs.gov.br">
+        <input type="email" value="" placeholder="sandra@procergs.rs.gov.br" required>
         <br/>
-        <input type="submit" value="submit"/>
-        <input type="search">
-        <meter value="2" max="10"></meter>
+        <input type="date">
+        <input type="search" formnovalidate>
 
+        <meter value="2" max="10"></meter>
+        <input type="number" min="5"/>
+    </fieldset>
+        <br>
+        <fieldset>
+            <legend>Qual seu animal favorito?</legend>
+            <input type="radio" name="_Animal" id="_Animal1" value="Cat" />Gato<br />
+            <input type="radio" name="_Animal" id="_Animal2" value="Dog" />Cachorro<br />
+            <input type="radio" name="_Animal" id="_Animal3" value="Bird" />Passarinho<br />
+        </fieldset>
+        <hr>
+        <input type="submit" value="submit"/>
     </fieldset>
 </form>
 </body>
