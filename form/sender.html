@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Form de passaros</title>
+    <link rel="stylesheet" href="novo.css">
 </head>
 <body>
 <form method="get" action="receiver.html">
@@ -10,8 +11,12 @@
         <legend>
             Customer info
         </legend>
-
-        <input type="text" pattern="\d{5}-?\d{3}" placeholder="99999-999">
+        <label for="cep">CEP</label>
+        <input id="cep" type="text" pattern="\d{5}-?\d{3}" placeholder="99999-999">
+        <menu>
+            <li>menu1</li>
+            <li>menu2</li>
+        </menu>
         <input type="email" value="" placeholder="sandra@procergs.rs.gov.br" required>
         <br/>
         <input type="date">
@@ -21,11 +26,11 @@
         <input type="number" min="5"/>
     </fieldset>
         <br>
-        <fieldset>
+        <fieldset class="margem">
             <legend>Qual seu animal favorito?</legend>
             <input type="radio" name="_Animal" id="_Animal1" value="Cat" />Gato<br />
-            <input type="radio" name="_Animal" id="_Animal2" value="Dog" />Cachorro<br />
-            <input type="radio" name="_Animal" id="_Animal3" value="Bird" />Passarinho<br />
+            <input type="radio" name="_Animal" id="_Animal2" value="Dog" />Cachórro<br />
+            <input type="radio" name="_Animal" id="_Animal3" value="Bird" />Passáros<br />
         </fieldset>
         <hr>
         <input type="submit" value="submit"/>
