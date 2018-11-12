@@ -7,3 +7,5 @@ atributo formnovalidate no botão de submit para que o formulário não seja val
 autofocus -> cai direto nesse campo ao entrar na página
 
 nnnnnnnn
+
+tr:nth-child(n)
