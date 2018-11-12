@@ -178,3 +178,40 @@ table caption{
     width: 80%;
     float: right;
 }
+.formCadastro{
+    background-color: rgba(66,78,56,0.1);
+
+}
+label::before{
+    content: "WATCH OUT";
+    background-color: yellowgreen;
+    font-size: xx-large;
+    border: #000099;
+}
+label::after{
+    content: "PULL OFF";
+    background-color: blueviolet;
+    font-size: medium;
+    border: #000099;
+    box-decoration-break: slice;
+}
+
+#_Book {
+    box-shadow: 5px 10px rosybrown;
+}
+
+#_Submit {
+    box-shadow: 5px 10px #888888;
+    color: #641d19;
+    background-color: #999999;
+    border-bottom: #000066;
+    padding-bottom: 10%;
+    display: block;
+    padding-right: 90%;
+}
+
+.#_Submit:hover {
+    background: #666 url('botao_hover.gif') no-repeat
+    center center;
+    color:#999;
+}
