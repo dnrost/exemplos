@@ -1,0 +1,45 @@
+From 314ff23e9d4ac1709368b0023ef0ebaed79ebc07 Mon Sep 17 00:00:00 2001
+From: dionesfrancisco <dnrost@gmail.com>
+Date: Thu, 8 Nov 2018 11:56:06 -0200
+Subject: [PATCH 1/5] commit aula
+
+---
+ .idea/workspace.xml | 8 +++-----
+ 1 file changed, 3 insertions(+), 5 deletions(-)
+
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+index f29e15f..857e740 100644
+--- a/.idea/workspace.xml
++++ b/.idea/workspace.xml
+@@ -4,9 +4,7 @@
+     <bookmark url="file://$PROJECT_DIR$/exemplo3/exerc.html" line="9" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="842e7b5d-65e2-410a-80ee-5f689c05a209" name="Default Changelist" comment="">
+-      <change beforePath="$PROJECT_DIR$/exemplo3/exerc.html" beforeDir="false" afterPath="$PROJECT_DIR$/exemplo3/exerc.html" afterDir="false" />
+-    </list>
++    <list default="true" id="842e7b5d-65e2-410a-80ee-5f689c05a209" name="Default Changelist" comment="" />
+     <ignored path="$PROJECT_DIR$/.tmp/" />
+     <ignored path="$PROJECT_DIR$/temp/" />
+     <ignored path="$PROJECT_DIR$/tmp/" />
+@@ -249,7 +247,7 @@
+       <option name="presentableId" value="Default" />
+       <updated>1541590373697</updated>
+       <workItem from="1541590375087" duration="5588000" />
+-      <workItem from="1541673528488" duration="8022000" />
++      <workItem from="1541673528488" duration="8614000" />
+     </task>
+     <task id="LOCAL-00001" summary="commit aula">
+       <created>1541599121270</created>
+@@ -262,7 +260,7 @@
+     <servers />
+   </component>
+   <component name="TimeTrackingManager">
+-    <option name="totallyTimeSpent" value="13610000" />
++    <option name="totallyTimeSpent" value="14202000" />
+   </component>
+   <component name="ToolWindowManager">
+     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+-- 
+2.14.2.windows.3
+

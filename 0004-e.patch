@@ -1,0 +1,27 @@
+From 790a06a3bcf0ff482d371ff5dc278ee9c2fb12c2 Mon Sep 17 00:00:00 2001
+From: dionesfrancisco <dnrost@gmail.com>
+Date: Fri, 9 Nov 2018 11:34:46 -0200
+Subject: [PATCH 4/5] e
+
+---
+ notes | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+diff --git a/notes b/notes
+index dcdb31f..4fd2df8 100644
+--- a/notes
++++ b/notes
+@@ -1,7 +1,9 @@
+-<form id="cadastro">
++﻿<form id="cadastro">
+ 
+ input type="range", color, password, search, select, textarea, pattern
+ form novalidate
+ 
+ atributo formnovalidate no botão de submit para que o formulário não seja validado
+ autofocus -> cai direto nesse campo ao entrar na página
++
++nnnnnnnn
+-- 
+2.14.2.windows.3
+
