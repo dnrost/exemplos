@@ -49,12 +49,15 @@ td{
 nav{
     text-decoration-color: #00FF00;
 }
+
 a{
     text-decoration: none;
 }
+
 a:visited{
     border: #00FF00;
 }
+
 a:hover{
     background-color: #006600;
 }

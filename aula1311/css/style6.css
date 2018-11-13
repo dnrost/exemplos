@@ -61,3 +61,28 @@ div-teste:hover {
 /*    -webkit-transform: rotate(180deg);*/
     transform: rotate(180deg);
 }
+
+
+.img {
+height: 20%;
+    width: 20%;
+}
+
+.img:hover {
+    background-color: #FFCCCC;
+    width: 200px;
+    height: 200px;
+    /*    -webkit-transform: rotate(180deg);*/
+    transform: rotate(180deg);
+    alpha(Opacity=30);
+    opacity: 0.3;
+}
+.viraesq{
+float:left;
+    transform: rotate(-35deg);
+}
+
+.viradir{
+    float: right;
+    transform: rotate(45deg);
+}
