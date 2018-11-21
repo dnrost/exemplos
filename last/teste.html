@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Target CodeShop( ); </title>
+    <script type="text/javascript">
+        function disp_prompt() {
+            var fname = prompt("Informe seu nome:", "seu nome");
+            document.getElementById("msg").innerHTML = "Seja bem vindo " + fname;
+        }
+        var  m = setInterval(function () {
+            myTimer(), 1000;
+
+
+
+        });
+        function myTimer(){
+            var d = new Date();
+            let t = d.toLocaleTimeString();
+            let k = document.getElementById("msg");
+            t+= k.innerHTML;
+        //    let br = document.createTextNode("br");
+
+          //  k.appendChild(br);
+           document.getElementById("msg").innerHTML =t ;
+            var s =  m + t;
+
+        }
+        function add() {
+            var newEl = document.createElement('p');
+            newEl.innerHTML = "teste";
+        }
+
+    </script>
+</head>
+<body>
+<input type="button" onclick="disp_prompt()" value="Perguntar">
+<input type="button" onclick="add()" value="Perguntar">
+<br />
+<br />
+<div id="msg"></div>
+<div id="msg3"></div>
+</body>
+</html>
